@@ -1,1 +1,1 @@
-# TBA
+# SvelteKit + Tailwind Starter

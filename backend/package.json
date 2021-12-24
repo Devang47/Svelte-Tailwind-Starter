@@ -20,7 +20,6 @@
     "url": "git+https://github.com/Devang47/node-ts-template.git"
   },
   "dependencies": {
-    "@types/node": "^17.0.1",
     "express": "^4.17.2"
   },
   "devDependencies": {
