@@ -2,9 +2,7 @@ import express from "express";
 
 const app = express();
 
-app.get("/", (req, res) => {
-  res.send("Hello World!");
-});
+app.use(express.static("./frontend/build"));
 
 const PORT = process.env.PORT || 5000;
 
