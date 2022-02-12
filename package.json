@@ -11,8 +11,8 @@
   "license": "ISC",
   "husky": {},
   "scripts": {
-    "start": "node build/index.js",
-    "dev": "nodemon src/index.ts",
+    "start": "cd frontend && pnpm build && cd ../ && node build/index.js",
+    "dev": "cd frontend && pnpm build && cd ../ && nodemon src/index.ts",
     "build": "tsc -p .",
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "husky install"
